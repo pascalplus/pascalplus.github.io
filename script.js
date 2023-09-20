@@ -77,8 +77,8 @@ function resetForm(withKittens){
 		setTimeout(function(){
 			var gif;
 
-			$.get('http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=kittens', function(result){
-				gif = result.data.image_url;
+			$.get('http://api.giphy.com/v1/gifs/random?api_key=sgTxTCJTtTKkeS9VO4n869PaZw8zrUSO&tag=kittens', function(result){
+				gif = result.data.url;
 				$('.terminal').append('<img class="kitten-gif" src="' + gif + '"">');
 				resetForm(true);
 			});
