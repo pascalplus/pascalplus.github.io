@@ -1,2 +1,2 @@
-Go to [https://pascalplus.github.io](https://pascalplus.github.io)
-
+Go to
+<a href="[http://example.com](https://pascalplus.github.io)" target="_blank">https://pascalplus.github.io</a>
